@@ -1,27 +1,48 @@
 # Welcome
+After years of requests, we're making adobe.com features open source.
+
+We're calling it Adobe Dx, for Adobe Digital Experience... or Dexter if you're nasty.
 
 # Point 1 - Motivations
 
-## Open your customizations
+## Why Us?
+Why do we exist in a world of Core Components, ACS Commons, wcm.io, etc?
 
- [Random image illustrating customization]
-AEM development has always been about customizations, from the obvious need to own your design to the way the content is handled.
-
-Problems around it are mostly that :
-- a customization is not always needed,
-- a customization can be done over and over again across AEM deployments
-
-this happens because sometimes either you don't know something exist in the product, or how you could tweak the requirements to fit the product in,
-or either you really are not happy with how it handles it.
-The same goes with other's customizations / features.
-
-We count on opening our customization to be a good filter for this
-
- [Diagram with our sites, corp.dexter, dx, core components contrib, aem core components, wcm.io, sling, acs, and random others]
-One question that could be asked to us is where do we stand in regards to other existing open sourced frameworks. 
 The answer is that we don't know for most of it! More seriously we don't plan on a fixed position, but so sit on top of core components, 
 wcm.io mocks, and sling of course. More generally each new feature would not be a fixed spot on a complicated diagram, but rather the beginning of 
-the beautiful cycle of the open sourcing.  
+the beautiful cycle of the open sourcing. 
+
+[internal comment] The truth is, for adobe.com to consume an open source project, we cannot compromise on certain aspects related to feature-set.
+
+[Venn Diagram]
+* Circle 1 - Core Components - Just components
+* Circle 2 - ACS Commons - Kitchen Sink (better / nicer way to say this?)
+* Circle 3 - Adobe Dx - Tools [1] for building exceptional digital experiences
+
+[1] Extremely opinionated
+
+## Customizations
+
+[Random image illustrating customization]
+
+AEM development has always been about customizations, from the obvious need to own your design to the way the content is handled.
+
+### Problems around it are mostly that
+* A customization is not always needed
+* A customization can be done over and over again across AEM deployments
+
+### Why this happens
+* You don't know something exist in the product
+* Or how you could tweak the requirements to fit the product in.
+* Or you really are not happy with how it handles it.
+
+The same goes with other's customizations / features.
+
+### Adobe Dx is aimed at:
+* Filtering these ideas and requirements
+* Spark conversations around adobe.com customizations in a more public forum
+* Bring a world-class filtered set of features into the open
+
 
  [Cycle diagram] : Factorization -> Break down in open bits (products, partner, custom) -> Usage -> Factorization 
  
