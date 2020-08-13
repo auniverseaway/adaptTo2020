@@ -5,6 +5,11 @@
 We are not the product team. We are AEM users just like many of you.
 
 ## Introduction
+
+Presentation of adobe.com websites, their specificity and what they have in common
+
+presentation of first iteration of private changes made to factorize those (Dexter)
+
 After years of requests, we're making many adobe.com features open source.
 
 We're calling the project Adobe Dx, for Adobe Digital Experience... or Dexter if you're nasty.
